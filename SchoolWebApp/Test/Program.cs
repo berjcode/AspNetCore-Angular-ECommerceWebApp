@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using static System.Net.WebRequestMethods;
 
 namespace Test
 {
@@ -92,3 +94,25 @@ namespace Test
         }
     }
 }
+
+//dataview nesnesi nedir ? 
+
+//DataView nesnesini Sql Server'da bulunan View nesneleri göz önüne alınarak oluşturulan bir sınıftır. Bilindiği gibi view'ler önceden derlenen nesneler 
+//    oldukları için performansı çok yüksektir. Ado.Net tarafında da DataView nesneler performans ve hız açısından avantajlıdır.
+
+//SQLInjection saldırısına uğramamak için parametreli çalış.
+
+
+//Connected mimari sqldatareader()
+//bağlantıyı manuel açığ kapatabiliyruz. sql reader sayesinde tabloyu satır satır okuyup işlem yapabiliyoruz.
+
+//disconnected mimari : sqldataadapter
+
+//bağlantı otomotik acılıp kapanır. insert update , delete otomoti koluşur. performans kaybı vardır.
+
+
+//sqlcommands :bizim veritabanı üzerinde yapmak istediğimiz işlemlerin ADO tarafında belirtilmesini sağlayan sınıftır
+
+
+
+//T DataSet, veri kaynağından bağımsız tutarlı bir ilişkisel programlama modeli sağlayan verilerin bellekte yerleşik bir gösterimidir

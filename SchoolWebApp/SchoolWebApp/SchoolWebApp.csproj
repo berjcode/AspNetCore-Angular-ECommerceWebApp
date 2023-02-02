@@ -333,6 +333,7 @@
     <Content Include="OgrenciEkle.aspx" />
     <Content Include="OgrenciGuncelle.aspx" />
     <Content Include="OgrenciSil.aspx" />
+    <Content Include="test.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -380,6 +381,13 @@
       <DependentUpon>Ogretmen.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ogretmen.Master" />
