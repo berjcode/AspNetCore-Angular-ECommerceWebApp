@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dWTGZ/H9cCLSEmT9RtIslTl9bbEq1O9WvOy65O6DL473sVYbws8JrVG1fPk7SODMqCDlIk/e/ux+f9+Y1dsI1g==",
+  "dgSpecHash": "kmLYSAB4A6k6pK0FCkuNvnZ3/uP0VfpAvcQ4KOia3sd0kc4ao33W8R0GoMRvsFFiMELm6c4G+zF4nKt/fpT6lQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abdbl\\OneDrive\\Masaüstü\\E-Commerce-Web-App-Asp.net-Core\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj",
+  "projectFilePath": "C:\\Users\\abdbl\\OneDrive\\Belgeler\\GitHub\\AspNetCore-Angular-ECommerceWebApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdbl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\abdbl\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

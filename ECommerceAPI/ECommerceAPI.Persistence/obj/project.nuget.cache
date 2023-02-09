@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wtPm71Oni2zWEFmYhurjEV1ycrVcwCJUVNxelUf4fJ7GYLGMn7OlASii5xcOYI+kBpmC7+4+97iXwIoJikyLgA==",
+  "dgSpecHash": "54bDRMqsIjXWJGcbCgmVaqP8hi+onVTyyFL8zg3nLSNZehaxYHoFktb/wmtPPBpNN4iXnEpKRpgT9dstmjn7uQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abdbl\\OneDrive\\Masaüstü\\E-Commerce-Web-App-Asp.net-Core\\ECommerceAPI\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\abdbl\\OneDrive\\Belgeler\\GitHub\\AspNetCore-Angular-ECommerceWebApp\\ECommerceAPI\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

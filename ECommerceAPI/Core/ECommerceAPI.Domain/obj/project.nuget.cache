@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y48QPbco32ncZyZNN3JlllhnURnLAVtV5vysiKpw1E8lakXAc3HS7quQdxVkvP8Lgi804mteNVv4+sdEn+P0pg==",
+  "dgSpecHash": "dUlyuF+yYa1DrMixdlKjDLzjyWORZuY64QthEqZMG2JCVc7GmmLAbf903w5z9+hSvAyg3O4V9KDPByv0X8xXjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abdbl\\OneDrive\\Masaüstü\\E-Commerce-Web-App-Asp.net-Core\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj",
+  "projectFilePath": "C:\\Users\\abdbl\\OneDrive\\Belgeler\\GitHub\\AspNetCore-Angular-ECommerceWebApp\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
