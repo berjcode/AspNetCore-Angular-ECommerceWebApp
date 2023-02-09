@@ -1,0 +1,36 @@
+﻿using ECommerceAPI.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ECommerceAPI.Persistence.Contexts
+{
+    public class ECommerceAPIDbContext:DbContext
+    {
+
+        //Veri tabanına karşılık gelir.
+        // db Context  kullanmak için paketleri indir.
+
+
+        //base gönder
+
+
+        public ECommerceAPIDbContext(DbContextOptions options) : base(options)
+        {
+        }
+
+        //Entity'leri belirt.
+        //Entity'ler tablolardır.
+
+        public DbSet<Product> Products { get; set; }
+
+        public DbSet<Customer> Customers { get; set; }
+
+        public DbSet<Order> Orders { get; set; }    
+        
+
+    }
+}
