@@ -1,6 +1,7 @@
-﻿using ECommerceAPI.Persistence.Contexts;
+﻿using ECommerceAPI.Persistence.Configurations;
+using ECommerceAPI.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 using System;
@@ -23,7 +24,8 @@ namespace ECommerceAPI.Persistence
 
             //Hangi veritabanı sistemi ise onun paketini indir.
             //kodun içine connection string ve konfigurasyon yazılmaz. Düzeltilecek json dosyasına katarılacak
-            services.AddDbContext<ECommerceAPIDbContext>(options => options.UseSqlServer("Data Source=berjcode;Initial Catalog=ECommerceWebAppDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"));
+
+            services.AddDbContext<ECommerceAPIDbContext>(options => options.UseSqlServer(Configuration.ConnectionString));
         }
     }
 }
